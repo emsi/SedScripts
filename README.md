@@ -19,7 +19,7 @@ hex2bin.sed  - converts HEX to Binary. Most hex formats are accepted. '0x', spac
 </pre>
 
 
-bin2hex.sed - convers Binary to Hexadecimal. Spaces and tabs are ignored.
+bin2hex.sed - converts Binary to Hexadecimal. Spaces and tabs are ignored.
 
 <pre>
 ./bin2hex.sed 
