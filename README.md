@@ -29,4 +29,8 @@ bin2hex.sed - converts Binary to Hexadecimal. Spaces and tabs are ignored.
 ./bin2hex.sed
 100100100100 0010 11010                10100 111001            101
 49216a9cd
+
+./bin2hex.sed
+0000 0000 1011 1101 1111 0100 1111 0000 0000
+00bdf4f00
 </pre>
