@@ -56,7 +56,7 @@ Example usage
 
 It's OK to combine all the tools the way you like :)
 
-</pre>
+<pre>
 (./hex2bin.sed ; ./hex2bin.sed ) | ./binAdder.sed | ./bin2hex.sed
 ff
 100
