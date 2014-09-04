@@ -6,7 +6,7 @@ Varius sed scripts
 Example usage
 =============
 
-*hex2bin.sed*  - converts HEX to Binary. Most hex formats are accepted. '0x', spaces and tabs are ignored. Arbitrary lenght numbers can be processed (limited by memory).
+**hex2bin.sed**  - converts HEX to Binary. Most hex formats are accepted. '0x', spaces and tabs are ignored. Arbitrary lenght numbers can be processed (limited by memory).
 
 <pre>
 ./hex2bin.sed 
@@ -19,7 +19,7 @@ Example usage
 </pre>
 
 
-*bin2hex.sed* - converts Binary to Hexadecimal. Spaces and tabs are ignored. Arbitrary lenght numbers can be processed (limited by memory).
+**bin2hex.sed** - converts Binary to Hexadecimal. Spaces and tabs are ignored. Arbitrary lenght numbers can be processed (limited by memory).
 
 <pre>
 ./bin2hex.sed 
@@ -35,7 +35,7 @@ Example usage
 00bdf4f00
 </pre>
 
-*binAdder.sed* - arbitrary length full adder. Adds two binary numbers together.
+**binAdder.sed** - arbitrary length full adder. Adds two binary numbers together.
 
 <pre>
 ./binAdder.sed
