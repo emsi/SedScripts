@@ -3,7 +3,46 @@ SedScripts
 
 Varius sed scripts
 
-Example usage
+Adders
+=============
+
+Occasionally you want to add two long numbers without falling into precision issues. Why not use sed for it?
+
+**binAdder.sed** - arbitrary length binary full adder. Adds two binary numbers together.
+
+<pre>
+./binAdder.sed
+1111110111
+1
+1111111000
+
+./binAdder.sed
+10
+10001
+10011
+
+./binAdder.sed
+0 1 1 0
+0 0 0 1
+111
+</pre>
+
+**decAdder.sed** - arbitrary length decimal full adder. Adds two decimal numbers together.
+
+<pre>
+./decAdder.sed
+98765432111111111111111122222222222333333333444444455555567890
+10000000000100002000030000401050060007007000088010901234567891
+108765432111211113111141122623272282340340333532455356790135781
+
+./decAdder.sed
+99990
+1234567890
+1234667880
+
+</pre>
+
+Converters
 =============
 
 **hex2bin.sed**  - converts HEX to Binary. Most hex formats are accepted. '0x', spaces and tabs are ignored. Arbitrary lenght numbers can be processed (limited by memory).
@@ -35,24 +74,8 @@ Example usage
 00bdf4f00
 </pre>
 
-**binAdder.sed** - arbitrary length full adder. Adds two binary numbers together.
-
-<pre>
-./binAdder.sed
-1111110111
-1
-1111111000
-
-./binAdder.sed
-10
-10001
-10011
-
-./binAdder.sed
-0 1 1 0
-0 0 0 1
-111
-</pre>
+Combine
+=============
 
 It's OK to combine all the tools the way you like :)
 
